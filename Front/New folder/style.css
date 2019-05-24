@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family:'Poppins', sans-serif; 
+}
+.navbar {
+  padding: .8rem;
+  background-color:  #0a3d62 ! important;
+}
+.navbar-custom
+{
+  background-color: red;
+}
+.navbar-nav li {
+  padding-right: 20px;
+}
+.nav-item a{
+  color: white ! important;
+}
+.nav-link{
+  font-size: 1.1em ! important;
+}
+.carousel-inner img
+{
+  width: 100%;
+  height: 100%;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1{
+  font-size: 700%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h6{
+  font-size: 300%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+.btn-primary
+{
+  background-color: #0c2461;
+  border: 1px solid #0c2461;
+}
+.btn-primary:hover{
+  background-color: #079992;
+  border: 1px solid #079992;
+}
+.padding{
+  padding-bottom: 2rem;
+}
+.welcome{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: .7rem;
+}
+.fa-camera,.fa-wrench, .fa-desktop, .fa-tty, .fa-cogs {
+  color: #0a3d62;
+  font-size: 4em;
+  margin: 1rem;
+}
+.fa-camera:hover,.fa-wrench:hover, .fa-desktop:hover, .fa-tty:hover, .fa-cogs:hover {
+  color: #079992;
+  cursor: pointer;
+}
+.social a{
+  padding: 10px;
+  font-size: 2em;
+}
+.fa-facebook{
+  color: #3b5998;
+
+}
+.fa-instagram{
+  color: #517fa8;
+}
+.fa-youtube{
+  color: #bb0000;
+}
+#copyright{
+  text-align: left;
+  font-size: 16px;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-youtube:hover
+{
+  color: #d5d5d5;
+}
+footer{
+  background-color: #0a3d62;
+  color: #d5d5d5;
+  height: 130px;
+  padding-top: 1rem;
+}
+footer a{
+  color: #d5d5d5;
+}
+.lead{
+  text-align: justify;
+  text-justify: inter-word;
+}
+.nav-link:hover
+{
+  cursor: pointer;
+  color: #079992 ! important;
+}
+.dropdown-menu{
+  background-color: #0a3d62 ! important;
+}
+.dropdown-item:hover
+{
+  background-color: #0a3d62 ! important;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  .display-4{
+  font-size: 300%;
+}
+.carousel-inner img
+{
+  width: 100%;
+  height: 100%;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1{
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3{
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+.btn-primary
+{
+  background-color: #0c2461;
+  border: 1px solid #0c2461;
+}
+}
+@media (max-width: 768px) {
+.carousel-caption {
+  top: 45%
+}
+.carousel-caption h1{
+  font-size: 350%;
+}
+.carousel-caption h3{
+  font-size: 140%;
+  font-weight: 400;
+  padding-bottom: .2rem;
+}
+.carousel-caption .btn{
+  font-size: 95%;
+  padding: 8px 14px;
+}
+.display-4{
+  font-size: 200%;
+}
+footer
+{
+  height: 240px;
+}
+@media (max-width: 576px) {
+  .carousel-caption {
+  top: 45%
+}
+.carousel-caption h1{
+  font-size: 150%;
+}
+.carousel-caption .btn{
+  font-size: 90%;
+  padding: 4px 8px;
+}
+.carousel-indicators{
+  display: none;
+}
+footer
+{
+  height: 290px;
+}
+.lead{
+  font-size: 14px;
+}
+.fa-camera,.fa-wrench, .fa-desktop, .fa-tty, .fa-cogs {
+  color: #0a3d62;
+  font-size: 2em;
+  margin: 1rem;
+}
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
